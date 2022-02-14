@@ -3,7 +3,7 @@ local colors = require("nightfox.colors").load()
 local nightfox = {}
 
 nightfox.normal = {
-  a = { bg = colors.blue, fg = colors.black },
+  a = { bg = colors.blue, fg = colors.status_fg },
   b = { bg = colors.fg_gutter, fg = colors.blue },
   c = { bg = colors.bg_statusline, fg = colors.fg_sidebar },
 }

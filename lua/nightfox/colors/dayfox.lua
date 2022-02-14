@@ -111,6 +111,7 @@ function M.init()
   colors.hint = colors.cyan
 
   colors.variable = colors.white
+  colors.status_fg = colors.white
 
   return colors
 end

@@ -25,10 +25,10 @@ function M.init()
     yellow     = "#ebcb8b",
     blue       = "#81a1c1",
     magenta    = "#e5e9f0",
-    cyan       = "#88c0d0",
+    cyan       = "#96B7C0",
     white      = "#e5e9f0",
     orange     = "#c9826b",
-    pink       = "#CC9999",
+    pink       = "#CCBB99",
 
     -- +15 brightness, +15 saturation
     black_br   = "#465780",
@@ -36,11 +36,11 @@ function M.init()
     green_br   = "#b1d196",
     yellow_br  = "#f0d399",
     blue_br    = "#8cafd2",
-    magenta_br = "#CC9999",
+    magenta_br = "#CCBB99",
     cyan_br    = "#93ccdc",
     white_br   = "#e7ecf4",
     orange_br  = "#d89079",
-    pink_br    = "#CC9999",
+    pink_br    = "#CCBB99",
 
     -- -15 brightness, -15 saturation
     black_dm   = "#353a45",
@@ -48,11 +48,11 @@ function M.init()
     green_dm   = "#8aa872",
     yellow_dm  = "#d9b263",
     blue_dm    = "#668aab",
-    magenta_dm = "#CC9999",
+    magenta_dm = "#CCBB99",
     cyan_dm    = "#69a7ba",
     white_dm   = "#bbc3d4",
     orange_dm  = "#b46950",
-    pink_dm    = "#CC9999",
+    pink_dm    = "#CCBB99",
 
     comment    = "#60728a",
 
@@ -111,6 +111,7 @@ function M.init()
   colors.hint = colors.cyan
 
   colors.variable = colors.white
+  colors.status_fg = colors.black
 
   return colors
 end
