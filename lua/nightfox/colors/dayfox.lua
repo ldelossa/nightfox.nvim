@@ -14,21 +14,21 @@ function M.init()
     meta       = { name = "dayfox", light = true },
 
     none       = "NONE",
-    bg         = "#EAEAEA",
+    bg         = "#BCBCBC",
 
     fg         = "#1D344F",
-    fg_gutter  = "#AAACB3",
+    fg_gutter  = "#1D344F",
 
     black      = "#1d344f",
     red        = "#B95D76",
     green      = "#618774",
     yellow     = "#BA793E",
-    blue       = "#6080b0",
-    magenta    = "#8e6f98",
-    cyan       = "#6CA7BD",
+    blue       = "#5070a0",
+    magenta    = "#4c4c4c",
+    cyan       = "#BA793E",
     white      = "#cdd1d5",
     orange     = "#E3786C",
-    pink       = "#D685AF",
+    pink       = "#6080b0",
 
     -- +10 brightness, +10 saturation
     black_br   = "#24476F",
@@ -40,7 +40,7 @@ function M.init()
     cyan_br    = "#74B2C9",
     white_br   = "#CFD6DD",
     orange_br  = "#E8857A",
-    pink_br    = "#DE8DB7",
+    pink_br    = "#678ABF",
 
     -- -10 brightness, -10 saturation
     black_dm   = "#1C2F44",
@@ -52,7 +52,7 @@ function M.init()
     cyan_dm    = "#5A99B0",
     white_dm   = "#B6BCC2",
     orange_dm  = "#D76558",
-    pink_dm    = "#C9709E",
+    pink_dm    = "#54729F",
 
     comment    = "#7F848E",
 
@@ -72,7 +72,7 @@ function M.init()
 
   util.bg = colors.bg
 
-  colors.bg_alt = "#D8D8D8" -- "#DBDFE2"
+  colors.bg_alt = "#B5B5B5" -- "#DBDFE2"
   colors.bg_highlight = util.darken(colors.bg, 0.90, "#000000")
 
   colors.fg_alt = util.lighten(colors.fg, 0.85, "#ffffff")

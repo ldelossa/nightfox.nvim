@@ -14,7 +14,7 @@ function M.init()
     meta       = { name = "nordfox", light = false },
 
     none       = "NONE",
-    bg         = "#2e3440",
+    bg         = "#1c1c1c",
 
     fg         = "#b9bfca",
     fg_gutter  = "#4b5668",
@@ -24,11 +24,11 @@ function M.init()
     green      = "#a3be8c",
     yellow     = "#ebcb8b",
     blue       = "#81a1c1",
-    magenta    = "#b48ead",
+    magenta    = "#e5e9f0",
     cyan       = "#88c0d0",
     white      = "#e5e9f0",
     orange     = "#c9826b",
-    pink       = "#bf88bc",
+    pink       = "#CC9999",
 
     -- +15 brightness, +15 saturation
     black_br   = "#465780",
@@ -36,11 +36,11 @@ function M.init()
     green_br   = "#b1d196",
     yellow_br  = "#f0d399",
     blue_br    = "#8cafd2",
-    magenta_br = "#c895bf",
+    magenta_br = "#CC9999",
     cyan_br    = "#93ccdc",
     white_br   = "#e7ecf4",
     orange_br  = "#d89079",
-    pink_br    = "#d092ce",
+    pink_br    = "#CC9999",
 
     -- -15 brightness, -15 saturation
     black_dm   = "#353a45",
@@ -48,11 +48,11 @@ function M.init()
     green_dm   = "#8aa872",
     yellow_dm  = "#d9b263",
     blue_dm    = "#668aab",
-    magenta_dm = "#9d7495",
+    magenta_dm = "#CC9999",
     cyan_dm    = "#69a7ba",
     white_dm   = "#bbc3d4",
     orange_dm  = "#b46950",
-    pink_dm    = "#a96ca5",
+    pink_dm    = "#CC9999",
 
     comment    = "#60728a",
 
