@@ -17,15 +17,15 @@ function M.init()
     bg         = "#BCBCBC",
 
     fg         = "#1D344F",
-    fg_gutter  = "#1D344F",
+    fg_gutter  = "#797979",
 
     black      = "#1d344f",
     red        = "#B95D76",
-    green      = "#618774",
+    green      = "#5A7C6B",
     yellow     = "#BA793E",
     blue       = "#5070a0",
     magenta    = "#4c4c4c",
-    cyan       = "#BA793E",
+    cyan       = "#40626B",
     white      = "#cdd1d5",
     orange     = "#E3786C",
     pink       = "#6080b0",
@@ -33,7 +33,7 @@ function M.init()
     -- +10 brightness, +10 saturation
     black_br   = "#24476F",
     red_br     = "#C76882",
-    green_br   = "#629F81",
+    green_br   = "#618774",
     yellow_br  = "#CA884A",
     blue_br    = "#678ABF",
     magenta_br = "#9F75AC",
@@ -98,7 +98,7 @@ function M.init()
   colors.bg_popup = colors.bg_alt
   colors.bg_statusline = colors.bg_alt
 
-  colors.bg_sidebar = colors.bg_alt
+  colors.bg_sidebar = colors.white_dm
   colors.bg_float = colors.bg_alt
 
   colors.bg_visual = util.darken(colors.blue, 0.2)

@@ -36,7 +36,7 @@ function M.apply(colors, config)
     -- TermCursorNC = {}, -- cursor in an unfocused terminal
     ErrorMsg = { fg = c.error }, -- error messages on the command line
     VertSplit = { fg = c.border }, -- the column separating vertically split windows
-    Folded = { fg = c.blue, bg = c.fg_gutter }, -- line used for closed folds
+    Folded = { fg = c.blue, bg = c.bg_search }, -- line used for closed folds
     FoldColumn = { bg = c.bg, fg = c.comment }, -- 'foldcolumn'
     SignColumn = { bg = config.transparent and c.none or c.bg, fg = c.fg_gutter }, -- column where |signs| are displayed
     SignColumnSB = { bg = c.bg_sidebar, fg = c.fg_gutter }, -- column where |signs| are displayed
@@ -473,7 +473,28 @@ function M.apply(colors, config)
     rainbowcol7 = { fg = c.pink },
 
     -- Litee-Symboltree
-    LTCurrentFileFiletree = { bg = c.bg_search }
+    LTCurrentFileFiletree = { bg = c.bg_search },
+    LTBoolean             = { fg = c.orange },
+    LTConstant            = { fg = c.orange },
+    LTConstructor         = { fg = c.magenta },
+    LTField               = { fg = c.blue },
+    LTFunction            = { fg = c.blue, style = config.styles.functions },
+    LTMethod              = { fg = c.cyan }, 
+    LTNamespace           = { fg = c.cyan },
+    LTNumber              = { fg = c.orange },
+    LTOperator            = { fg = c.fg_alt },
+    LTParameter           = { fg = c.orange },
+    LTParameterReference  = { fg = c.orange },
+    LTString              = { fg = c.green, style = config.styles.strings },
+    LTSymbol              = { fg = c.blue },
+    -- LTSymbolDetail        =
+    LTSymbolJump          = { fg = c.bg_alt },
+    LTSymbolJumpRefs      = { fg = c.bg_search },
+    LTType                = { fg = c.yellow },
+    LTURI                 = { fg = c.orange },
+    LTIndentGuide         = { fg = c.fg },
+    LTExpandedGuide       = { fg = c.fg },
+    LTCollapsedGuide      = { fg = c.fg },
   }
 
   return theme
