@@ -488,8 +488,8 @@ function M.apply(colors, config)
     LTString              = { fg = c.green, style = config.styles.strings },
     LTSymbol              = { fg = c.blue },
     -- LTSymbolDetail        =
-    LTSymbolJump          = { fg = c.bg_alt },
-    LTSymbolJumpRefs      = { fg = c.bg_search },
+    LTSymbolJump          = { bg = c.bg_alt },
+    LTSymbolJumpRefs      = { bg = c.bg_search },
     LTType                = { fg = c.yellow },
     LTURI                 = { fg = c.orange },
     LTIndentGuide         = { fg = c.fg },

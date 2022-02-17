@@ -54,7 +54,7 @@ function M.init()
     orange_dm  = "#D76558",
     pink_dm    = "#54729F",
 
-    comment    = "#7F848E",
+    comment    = "#767B85",
 
     git = {
       add      = "#70a288",
