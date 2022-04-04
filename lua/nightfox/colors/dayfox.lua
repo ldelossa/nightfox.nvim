@@ -27,7 +27,7 @@ function M.init()
     magenta    = "#4c4c4c",
     cyan       = "#40626B",
     white      = "#cdd1d5",
-    orange     = "#E3786C",
+    orange     = "#BA774A",
     pink       = "#6080b0",
 
     -- +10 brightness, +10 saturation
@@ -39,7 +39,7 @@ function M.init()
     magenta_br = "#9F75AC",
     cyan_br    = "#74B2C9",
     white_br   = "#CFD6DD",
-    orange_br  = "#E8857A",
+    orange_br  = "#BA774A",
     pink_br    = "#678ABF",
 
     -- -10 brightness, -10 saturation
@@ -51,7 +51,7 @@ function M.init()
     magenta_dm = "#806589",
     cyan_dm    = "#5A99B0",
     white_dm   = "#B6BCC2",
-    orange_dm  = "#D76558",
+    orange_dm  = "#BA774A",
     pink_dm    = "#54729F",
 
     comment    = "#767B85",
