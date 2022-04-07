@@ -73,6 +73,7 @@ function M.init()
   util.bg = colors.bg
 
   colors.bg_alt = "#232831"
+  colors.bg_sidebar = util.brighten(colors.bg_alt, 0.08)
   colors.bg_highlight = util.brighten(colors.bg, 0.10)
 
   colors.fg_alt = util.darken(colors.fg, 0.85, "#000000")
@@ -98,7 +99,6 @@ function M.init()
   colors.bg_popup = colors.bg_alt
   colors.bg_statusline = colors.bg_alt
 
-  colors.bg_sidebar = colors.bg_alt
   colors.bg_float = colors.bg_alt
 
   colors.bg_visual = util.darken(colors.blue, 0.2)
