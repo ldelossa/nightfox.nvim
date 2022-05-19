@@ -479,7 +479,7 @@ function M.apply(colors, config)
     LTConstructor         = { fg = c.magenta },
     LTField               = { fg = c.blue },
     LTFunction            = { fg = c.blue, style = config.styles.functions },
-    LTMethod              = { fg = c.cyan }, 
+    LTMethod              = { fg = c.cyan },
     LTNamespace           = { fg = c.cyan },
     LTNumber              = { fg = c.orange },
     LTOperator            = { fg = c.fg_alt },
@@ -495,6 +495,21 @@ function M.apply(colors, config)
     LTIndentGuide         = { fg = c.fg },
     LTExpandedGuide       = { fg = c.fg },
     LTCollapsedGuide      = { fg = c.fg },
+    -- LTIcons
+    LTInfo                = { fg = c.blue },
+    LTSuccess 			  = { fg = c.green },
+    LTDefault 			  = { fg = c.blue },
+    LTFailure 			  = { fg = c.red },
+    LTGitBranch 		  = { fg = c.yellow_dm },
+    LTGitCompare 	      = { fg = c.yellow_dm },
+    LTGitPullRequest 	  = { fg = c.yellow_dm },
+    LTWarning 			  = { fg = c.yellow },
+    LTDiffAdded 		  = { fg = c.green },
+    LTGitCommit 		  = { fg = c.yellow_dm },
+    LTGitRepo 			  = { fg = c.blue },
+    LTComment 			  = { fg = c.blue_br },
+    LTMultiComment 		  = { fg = c.blue_br},
+    LTAccount             = { fg = c.blue_dm},
   }
 
   return theme

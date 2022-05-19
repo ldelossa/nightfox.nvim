@@ -14,7 +14,7 @@ function M.init()
     meta       = { name = "dayfox", light = true },
 
     none       = "NONE",
-    bg         = "#BCBCBC",
+    bg         = "#bfbfbf",
 
     fg         = "#1D344F",
     fg_gutter  = "#797979",

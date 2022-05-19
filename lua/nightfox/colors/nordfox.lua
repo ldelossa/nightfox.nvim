@@ -28,7 +28,7 @@ function M.init()
     cyan       = "#96B7C0",
     white      = "#e5e9f0",
     orange     = "#c9826b",
-    pink       = "#CCBB99",
+    pink       = "#ccbb99",
 
     -- +15 brightness, +15 saturation
     black_br   = "#465780",
