@@ -5,55 +5,56 @@ local M = {}
 -- Return the initial colors of the colorscheme. This is the default defined colors
 -- without the color overrides from the configuration.
 function M.init()
-
-  -- References:
-  -- https://coolors.co/393b44-c94f6d-81b29a-dbc074-719cd6-9d79d6-63cdcf-dfdfe0-f4a261-d67ad2
+  -- Reference:
+  -- https://i.imgur.com/LzJYkpS.jpeg
+  -- https://coolors.co/3b4252-bf616a-a3be8c-ebcb8b-81a1c1-b48ead-88c0d0-e5e9f0-c9826b-d67ad2
 
   -- stylua: ignore
   local colors = {
-    meta       = { name = "nightfox", light = false },
+    meta       = { name = "nordfox", light = false },
 
     none       = "NONE",
-    bg         = "#192330",
+    bg         = "#1c1c1c",
 
-    fg         = "#cdcecf",
-    fg_gutter  = "#3b4261",
+    fg         = "#b9bfca",
+    fg_gutter  = "#4b5668",
 
-    black      = "#393b44",
-    red        = "#c94f6d",
-    green      = "#81b29a",
-    yellow     = "#dbc074",
-    blue       = "#719cd6",
-    magenta    = "#9d79d6",
-    cyan       = "#63cdcf",
-    white      = "#dfdfe0",
-    orange     = "#f4a261",
-    pink       = "#d67ad2",
+    black      = "#3b4252",
+    red        = "#bf616a",
+    green      = "#a3be8c",
+    yellow     = "#ebcb8b",
+    blue       = "#81a1c1",
+    magenta    = "#e5e9f0",
+    cyan       = "#96B7C0",
+    white      = "#e5e9f0",
+    orange     = "#c9826b",
+    pink       = "#ccbb99",
 
-    black_br   = "#475072",
-    red_br     = "#d6616b",
-    green_br   = "#58cd8b",
-    yellow_br  = "#ffe37e",
-    blue_br    = "#84cee4",
-    magenta_br = "#b8a1e3",
-    cyan_br    = "#59f0ff",
-    white_br   = "#f2f2f2",
-    orange_br  = "#f6a878",
-    pink_br    = "#df97db",
+    -- +15 brightness, +15 saturation
+    black_br   = "#465780",
+    red_br     = "#d06f79",
+    green_br   = "#b1d196",
+    yellow_br  = "#f0d399",
+    blue_br    = "#8cafd2",
+    magenta_br = "#CCBB99",
+    cyan_br    = "#93ccdc",
+    white_br   = "#e7ecf4",
+    orange_br  = "#d89079",
+    pink_br    = "#CCBB99",
 
-    -- -15 brightness -15 saturation
-    black_dm   = "#32343b",
-    red_dm     = "#ad425c",
-    green_dm   = "#689c83",
-    yellow_dm  = "#c7a957",
-    blue_dm    = "#5483c1",
-    magenta_dm = "#835dc1",
-    cyan_dm    = "#4ab8ba",
-    white_dm   = "#bdbdc0",
-    orange_dm  = "#e28940",
-    pink_dm    = "#c15dbc",
+    -- -15 brightness, -15 saturation
+    black_dm   = "#353a45",
+    red_dm     = "#a54e56",
+    green_dm   = "#8aa872",
+    yellow_dm  = "#d9b263",
+    blue_dm    = "#668aab",
+    magenta_dm = "#CCBB99",
+    cyan_dm    = "#69a7ba",
+    white_dm   = "#bbc3d4",
+    orange_dm  = "#b46950",
+    pink_dm    = "#CCBB99",
 
-    comment    = "#526175",
+    comment    = "#60728a",
 
     git = {
       add      = "#70a288",
@@ -71,7 +72,8 @@ function M.init()
 
   util.bg = colors.bg
 
-  colors.bg_alt = util.darken(colors.bg, 0.75, "#000000")
+  colors.bg_alt = "#232831"
+  colors.bg_sidebar = util.brighten(colors.bg_alt, 0.08)
   colors.bg_highlight = util.brighten(colors.bg, 0.10)
 
   colors.fg_alt = util.darken(colors.fg, 0.85, "#000000")
@@ -97,7 +99,6 @@ function M.init()
   colors.bg_popup = colors.bg_alt
   colors.bg_statusline = colors.bg_alt
 
-  colors.bg_sidebar = colors.bg_alt
   colors.bg_float = colors.bg_alt
 
   colors.bg_visual = util.darken(colors.blue, 0.2)
@@ -110,6 +111,7 @@ function M.init()
   colors.hint = colors.cyan
 
   colors.variable = colors.white
+  colors.status_fg = colors.black
 
   return colors
 end

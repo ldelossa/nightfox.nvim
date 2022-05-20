@@ -14,7 +14,7 @@ function M.init()
     meta       = { name = "nordfox", light = false },
 
     none       = "NONE",
-    bg         = "#1c1c1c",
+    bg         = "#3a455b",
 
     fg         = "#b9bfca",
     fg_gutter  = "#4b5668",
