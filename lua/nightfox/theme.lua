@@ -503,11 +503,13 @@ function M.apply(colors, config)
     LTGitBranch 		  = { fg = c.yellow_dm },
     LTGitCompare 	      = { fg = c.yellow_dm },
     LTGitPullRequest 	  = { fg = c.yellow_dm },
+    LTGitIssue      	  = { fg = c.green },
     LTWarning 			  = { fg = c.yellow },
     LTDiffAdded 		  = { fg = c.green },
     LTGitCommit 		  = { fg = c.yellow_dm },
     LTGitRepo 			  = { fg = c.blue },
     LTComment 			  = { fg = c.blue_br },
+    LTCalendar            = { fg = c.green },
     LTMultiComment 		  = { fg = c.blue_br},
     LTAccount             = { fg = c.blue_dm},
   }

@@ -14,7 +14,7 @@ function M.init()
     meta       = { name = "dayfox", light = true },
 
     none       = "NONE",
-    bg         = "#bfbfbf",
+    bg         = "#e0e0e0",
 
     fg         = "#1D344F",
     fg_gutter  = "#797979",
@@ -50,7 +50,7 @@ function M.init()
     blue_dm    = "#54729F",
     magenta_dm = "#806589",
     cyan_dm    = "#5A99B0",
-    white_dm   = "#B6BCC2",
+    white_dm   = "#E8EEE2",
     orange_dm  = "#BA774A",
     pink_dm    = "#54729F",
 
@@ -95,11 +95,11 @@ function M.init()
   colors.border = colors.black
 
   -- Popups and statusline always get a dark background
-  colors.bg_popup = colors.bg_alt
-  colors.bg_statusline = colors.bg_alt
+  colors.bg_popup = colors.white_dm
+  colors.bg_statusline = colors.white_dm
 
   colors.bg_sidebar = colors.white_dm
-  colors.bg_float = colors.bg_alt
+  colors.bg_float = colors.white_dm
 
   colors.bg_visual = util.darken(colors.blue, 0.2)
   colors.bg_search = util.darken(colors.cyan, 0.3)
