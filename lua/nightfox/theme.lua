@@ -512,6 +512,10 @@ function M.apply(colors, config)
     LTCalendar            = { fg = c.green },
     LTMultiComment 		  = { fg = c.blue_br},
     LTAccount             = { fg = c.blue_dm},
+
+    -- GH.nvim
+    GHThreadSep             =   { bg = c.bg_popup, fg = c.fg_alt },
+    GHThreadSepAlt          =   { bg = c.diff.change }
   }
 
   return theme
