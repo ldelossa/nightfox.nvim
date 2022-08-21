@@ -52,7 +52,7 @@ function M.apply(colors, config)
     Normal = { fg = c.fg, bg = config.transparent and c.none or c.bg }, -- normal text
     NormalNC = { fg = c.fg, bg = config.transparent and c.none or config.alt_nc and c.bg_alt or c.bg }, -- normal text in non-current windows
     NormalSB = { fg = c.fg_sidebar, bg = c.bg_sidebar }, -- normal text in non-current windows
-    NormalFloat = { fg = c.fg, bg = c.bg_float }, -- Normal text in floating windows.
+    NormalFloat = { fg = c.fg, bg = c.bg }, -- Normal text in floating windows.
     FloatBorder = { fg = c.border_highlight },
     Pmenu = { bg = c.bg_popup, fg = c.fg_alt }, -- Popup menu: normal item.
     PmenuSel = { fg = c.cyan, bg = c.bg_highlight }, -- Popup menu: selected item.
